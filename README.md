@@ -43,8 +43,8 @@ python main.py --mode balancer --port 5000 --backend_ports 8000 8001 8002
 Replace 8000 8001 8002 with the ports of your backend servers.
 
 ## Configuration
--- Backend Servers: Define the ports for your backend Flask applications in the --backend_ports argument when starting the load balancer.
--- Rate Limiting: Adjust the rate limiting settings within the RateLimiter class as needed.
+- Backend Servers: Define the ports for your backend Flask applications in the --backend_ports argument when starting the load balancer.
+- Rate Limiting: Adjust the rate limiting settings within the RateLimiter class as needed.
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
